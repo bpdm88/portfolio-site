@@ -1,0 +1,39 @@
+.skills {
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.skillLogo img {
+    margin-top: 40px;
+    opacity: 80%;
+}
+
+.skillLogo {
+    grid-column: 1 / 2;
+}
+
+.box1 {
+    grid-column: 2 / 3;
+    text-align: center;
+}
+
+.box2 {
+    grid-column: 3 / 4;
+    text-align: center;
+}
+
+.box3 {
+    grid-column: 4 / 5;
+    text-align: center;
+}
+
+.skills p {
+    font-size: 13px;
+    font-family: comfortaa;
+}

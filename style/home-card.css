@@ -1,0 +1,120 @@
+.welcome {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home-card {
+    height: 650px;
+    width: auto;
+    background-color: rgba(104, 202, 173, 0.7);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container {
+    margin-left: 75px;
+}
+
+.home-card h1 {
+    margin-bottom: 30px;
+}
+
+.home-card p {
+    color: white;
+    font-size: 20px;
+}
+
+.text-wrapper {
+    max-width: 800px;
+}
+
+.home-card h2 {
+    color: #494747;
+    font-size: 30px;
+    font-family: cabin-bold;
+    filter: opacity(75%);
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    border-color: white;
+    background-color: white;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+button a {
+    font-family: cabin-bold;
+    font-size: 16px;
+    filter: opacity(75%);
+    text-decoration: none;
+    color: #777676;
+}
+
+button:hover {
+    opacity: 0.5;
+    transition: all 0.4s ease 0s;
+}
+
+.socials img {
+    filter: opacity(75%);
+}
+
+@media screen and (max-width: 1600px) {
+    .home-card {
+        height: 525px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .home-card {
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        align-items: center;
+        text-align: center;
+    }
+    .hompage,
+    ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .container {
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+    .contact {
+        display: block;
+    }
+    .socials {
+        padding: 0px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .contact {
+        margin-top: 50px;
+    }
+    .home-card h1 {
+        font-size: 45px;
+    }
+    .home-card h2 {
+        font-size: 24px;
+    }
+    .home-card p {
+        font-size: 18px;
+    }
+}

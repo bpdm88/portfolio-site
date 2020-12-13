@@ -1,0 +1,47 @@
+.proj {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    width: 400px;
+    height: 250px;
+    border-radius: 5%;
+    background-color: #f9f9f9;
+    margin: 25px;
+    flex-shrink: 0;
+}
+
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgba(104, 202, 173, 0.7);
+    opacity: 30%;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 50px;
+    bottom: 50px;
+}
+
+.circle2 {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+}
+
+.projectDescription {
+    margin: 25px;
+}
+
+h4 {
+    text-align: left;
+}
+
+.proj p {
+    font-size: 16px;
+}
