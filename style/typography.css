@@ -14,26 +14,32 @@
     src: url(../assets/fonts/static/Comfortaa-Medium.ttf) format("truetype");
 }
 
-h1 {
+.heading--alpha {
     font-family: cabin-bold;
     font-size: 60px;
     color: white;
 }
 
-h3 {
+.heading--bravo {
+    color: #494747;
+    font-size: 30px;
+    font-family: cabin-bold;
+    filter: opacity(75%);
+}
+
+.heading--charlie {
     font-family: cabin;
     font-size: 32px;
     color: #696969;
-    margin-left: 25px;
 }
 
-h4 {
+.heading--delta {
     font-family: cabin;
     font-size: 22px;
     color: #696969;
 }
 
-h5 {
+.heading--echo {
     font-family: cabin-bold;
     font-size: 18px;
     color: #696969;

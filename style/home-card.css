@@ -31,13 +31,6 @@
     max-width: 800px;
 }
 
-.home-card h2 {
-    color: #494747;
-    font-size: 30px;
-    font-family: cabin-bold;
-    filter: opacity(75%);
-}
-
 .contact {
     display: flex;
     align-items: center;
