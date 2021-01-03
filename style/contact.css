@@ -1,5 +1,5 @@
 .contact-me {
-    background-color: #f9f9f9;
+    background-color: var(--white);
     border-radius: 15px;
     height: 200px;
     width: auto;

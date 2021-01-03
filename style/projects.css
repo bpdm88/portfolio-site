@@ -7,7 +7,7 @@
     width: 400px;
     height: 250px;
     border-radius: 5%;
-    background-color: #f9f9f9;
+    background-color: var(--white);
     margin: 25px;
     flex-shrink: 0;
 }
@@ -16,7 +16,7 @@
     height: 100px;
     width: 100px;
     border-radius: 50%;
-    background-color: rgba(104, 202, 173, 0.7);
+    background-color: var(--green);
     opacity: 30%;
     margin: 15px;
     display: flex;
@@ -31,7 +31,7 @@
     height: 65px;
     width: 65px;
     border-radius: 50%;
-    background-color: #f9f9f9;
+    background-color: var(--white);
 }
 
 .projectDescription {

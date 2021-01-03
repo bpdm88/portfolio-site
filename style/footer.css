@@ -3,7 +3,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 10px;
-    border-top: 2px solid rgba(104, 202, 173, 0.7);
+    border-top: 2px solid var(--green);
 }
 
 ul {

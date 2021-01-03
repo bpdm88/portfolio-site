@@ -1,0 +1,29 @@
+:root {
+    /* colours */
+
+    --green: rgba(104, 202, 173, 0.7);
+    --grey: rgba(73, 71, 71);
+    --light-grey: rgba(105, 105, 105);
+    --white: rgba(249, 249, 249);
+    --black: rgba(0, 0, 0);
+
+    /* font size */
+
+    --heading-alpha: 40px;
+
+    /* margin & padding */
+
+    /* --bp-small: 640px; */
+}
+
+@media screen and (min-width: 640px) {
+    :root {
+        --heading-alpha: 50px;
+    }
+}
+
+@media screen and (min-width: 960px) {
+    :root {
+        --heading-alpha: 60px;
+    }
+}
