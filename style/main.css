@@ -1,5 +1,5 @@
-@import "./reset.css";
-@import "./settings.css";
+@import "reset.css";
+@import "settings.css";
 @import "wrapper.css";
 @import "typography.css";
 @import "logo.css";
@@ -12,3 +12,4 @@
 @import "contact.css";
 @import "footer.css";
 @import "utils.css";
+@import "button.css";

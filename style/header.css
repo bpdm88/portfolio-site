@@ -2,7 +2,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
 }
 
 ul {
@@ -29,4 +28,19 @@ a:hover {
 
 li img {
     opacity: 70%;
+}
+
+@media screen and (max-width: 750px) {
+    header {
+        width: 320px;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+    nav,
+    a {
+        font-size: 10px;
+    }
 }

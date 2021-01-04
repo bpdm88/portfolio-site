@@ -1,5 +1,7 @@
 .welcome {
     height: 80vh;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,60 +9,27 @@
 .home-card {
     height: 650px;
     width: auto;
-    background-color: var(--green);
     border-radius: 15px;
+    background-color: var(--green);
+    margin: var(--spacing-lg);
+    padding: var(--spacing-xl);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.container {
-    margin-left: 75px;
+.card-content {
+    width: auto;
+    height: 500px;
+    padding: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.home-card h1 {
-    margin-bottom: 30px;
-}
-
-.home-card p {
-    color: var(--white);
-    font-size: 20px;
-}
-
-.text-wrapper {
-    max-width: 800px;
-}
-
-.contact {
+.card-contact {
     display: flex;
     align-items: center;
-}
-
-button {
-    margin-top: 25px;
-    width: 150px;
-    height: 50px;
-    border-color: var(--white);
-    background-color: var(--white);
-    border-style: solid;
-    border-radius: 10px;
-}
-
-button a {
-    font-family: cabin-bold;
-    font-size: 16px;
-    filter: opacity(75%);
-    text-decoration: none;
-    color: var(--grey);
-}
-
-button:hover {
-    opacity: 0.5;
-    transition: all 0.4s ease 0s;
-}
-
-.socials img {
-    filter: opacity(75%);
 }
 
 @media screen and (max-width: 1600px) {
@@ -70,44 +39,28 @@ button:hover {
 }
 
 @media screen and (max-width: 750px) {
-    .home-card {
+    .welcome {
+        height: 100vh;
+        margin-top: var(--spacing-sm);
+        margin-bottom: var(--spacing-sm);
         display: flex;
         flex-direction: column;
-        justify-items: center;
+        justify-content: end;
+    }
+    .home-card {
+        width: 300px;
+        height: 500px;
+        margin: var(--spacing-sm);
+        padding: var(--spacing-sm);
+    }
+
+    .card-content {
+        padding: var(--spacing-xs);
         align-items: center;
         text-align: center;
     }
-    .hompage,
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .container {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-    .contact {
-        display: block;
-    }
-    .socials {
-        padding: 0px;
-    }
-}
 
-@media screen and (max-width: 420px) {
-    .contact {
-        margin-top: 50px;
-    }
-    .home-card h1 {
-        font-size: 45px;
-    }
-    .home-card h2 {
-        font-size: 24px;
-    }
-    .home-card p {
-        font-size: 18px;
+    .card-contact {
+        flex-direction: column;
     }
 }

@@ -9,21 +9,36 @@
 
     /* font size */
 
-    --heading-alpha: 40px;
+    --heading-alpha-sm: 30px;
+    --heading-alpha-md: 50px;
+    --heading-alpha-lg: 60px;
+
+    --heading-bravo-sm: 20px;
+    --heading-bravo-md: 25px;
+    --heading-bravo-lg: 30px;
+
+    --heading-charlie-sm: 40px;
+    --heading-charlie-md: 40px;
+    --heading-charlie-lg: 40px;
+
+    --heading-delta-sm: 40px;
+    --heading-delta-md: 40px;
+    --heading-delta-lg: 40px;
+
+    --standard-sm: 14px;
+    --standard-md: 16px;
+    --standard-lg: 20px;
 
     /* margin & padding */
 
-    /* --bp-small: 640px; */
-}
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
 
-@media screen and (min-width: 640px) {
-    :root {
-        --heading-alpha: 50px;
-    }
-}
+    /* card size */
 
-@media screen and (min-width: 960px) {
-    :root {
-        --heading-alpha: 60px;
-    }
+    --card-xs: 300px;
+    --card-sm: ;
 }

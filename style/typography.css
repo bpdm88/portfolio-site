@@ -16,13 +16,13 @@
 
 .heading--alpha {
     font-family: cabin-bold;
-    font-size: var(--heading-alpha);
+    font-size: var(--heading-alpha-lg);
     color: var(--white);
 }
 
 .heading--bravo {
     color: var(--grey);
-    font-size: 30px;
+    font-size: var(--heading-bravo-lg);
     font-family: cabin-bold;
     filter: opacity(75%);
 }
@@ -47,5 +47,37 @@
 
 p {
     font-family: cabin-bold;
-    font-size: 20px;
+    color: var(--white);
+    font-size: var(--standard-lg);
+}
+
+.socials img {
+    filter: opacity(75%);
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (max-width: 960px) {
+    .heading--alpha {
+        font-size: var(--heading-alpha-md);
+    }
+    .heading--bravo {
+        font-size: var(--heading-bravo-md);
+    }
+    p {
+        font-size: var(--standard-md);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .heading--alpha {
+        font-size: var(--heading-alpha-sm);
+    }
+    .heading--bravo {
+        font-size: var(--heading-bravo-sm);
+    }
+    p {
+        font-size: var(--standard-sm);
+    }
 }
