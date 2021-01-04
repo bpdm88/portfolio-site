@@ -16,12 +16,12 @@
 
 .heading--alpha {
     font-family: cabin-bold;
-    font-size: 60px;
-    color: white;
+    font-size: var(--heading-alpha);
+    color: var(--white);
 }
 
 .heading--bravo {
-    color: #494747;
+    color: var(--grey);
     font-size: 30px;
     font-family: cabin-bold;
     filter: opacity(75%);
@@ -30,22 +30,22 @@
 .heading--charlie {
     font-family: cabin;
     font-size: 32px;
-    color: #696969;
+    color: var(--light-grey);
 }
 
 .heading--delta {
     font-family: cabin;
     font-size: 22px;
-    color: #696969;
+    color: var(--light-grey);
 }
 
 .heading--echo {
     font-family: cabin-bold;
     font-size: 18px;
-    color: #696969;
+    color: var(--light-grey);
 }
 
 p {
     font-family: cabin-bold;
-    font-size: 14px;
+    font-size: 20px;
 }
