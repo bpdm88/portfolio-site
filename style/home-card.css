@@ -1,5 +1,5 @@
 .welcome {
-    /* height: 80vh; */
+    min-height: calc(100vh - (70px + var(--spacing-xl)));
     margin-top: var(--spacing-xl);
     margin-bottom: var(--spacing-xxl);
     display: flex;
@@ -45,7 +45,10 @@
     }
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1025px) {
+    .welcome {
+        min-height: 0;
+    }
     .home-card {
         width: 800px;
     }
