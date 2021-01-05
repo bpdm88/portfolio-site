@@ -2,16 +2,33 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
-    border-top: 2px solid rgba(104, 202, 173, 0.7);
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-md);
+    border-top: 2px solid var(--green);
 }
 
-ul {
+footer ul {
     display: flex;
 }
 
-li {
+footer li {
     display: flex;
     align-items: center;
-    padding: 20px;
+    padding: var(--spacing-lg);
+}
+
+footer .logo-wrapper {
+    height: 40px;
+    width: 40px;
+}
+
+footer .logo {
+    font-size: 14px;
+}
+
+@media screen and (max-width: 750px) {
+    footer {
+        display: flex;
+        justify-content: center;
+    }
 }

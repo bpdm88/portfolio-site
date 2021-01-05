@@ -1,66 +1,42 @@
 .welcome {
-    height: 80vh;
+    /* height: 80vh; */
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xxl);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .home-card {
     height: 650px;
-    width: auto;
-    background-color: rgba(104, 202, 173, 0.7);
     border-radius: 15px;
+    background-color: var(--green);
+    margin: var(--spacing-lg);
+    padding: var(--spacing-xl);
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
-.container {
-    margin-left: 75px;
+.card-content {
+    height: 400px;
+    padding: var(--spacing-xl);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
-.home-card h1 {
-    margin-bottom: 30px;
-}
-
-.home-card p {
-    color: white;
-    font-size: 20px;
-}
-
-.text-wrapper {
-    max-width: 800px;
-}
-
-.contact {
+.card-contact {
     display: flex;
     align-items: center;
 }
 
-button {
-    margin-top: 25px;
-    width: 150px;
-    height: 50px;
-    border-color: white;
-    background-color: white;
-    border-style: solid;
-    border-radius: 10px;
+.socials {
+    display: flex;
+    align-items: center;
 }
 
-button a {
-    font-family: cabin-bold;
-    font-size: 16px;
-    filter: opacity(75%);
-    text-decoration: none;
-    color: #777676;
-}
-
-button:hover {
-    opacity: 0.5;
-    transition: all 0.4s ease 0s;
-}
-
-.socials img {
-    filter: opacity(75%);
+.socials li {
+    padding: var(--spacing-lg);
 }
 
 @media screen and (max-width: 1600px) {
@@ -69,45 +45,36 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 960px) {
     .home-card {
-        display: flex;
-        flex-direction: column;
-        justify-items: center;
-        align-items: center;
-        text-align: center;
-    }
-    .hompage,
-    ul {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .container {
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 25px;
-        margin-right: 25px;
-    }
-    .contact {
-        display: block;
-    }
-    .socials {
-        padding: 0px;
+        width: 800px;
     }
 }
 
-@media screen and (max-width: 420px) {
-    .contact {
-        margin-top: 50px;
+@media screen and (max-width: 750px) {
+    .welcome {
+        height: 100vh;
+        margin-top: var(--spacing-sm);
+        margin-bottom: var(--spacing-sm);
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        align-items: center;
     }
-    .home-card h1 {
-        font-size: 45px;
+    .home-card {
+        width: 300px;
+        height: 500px;
+        margin: var(--spacing-sm);
+        padding: var(--spacing-sm);
     }
-    .home-card h2 {
-        font-size: 24px;
+
+    .card-content {
+        padding: var(--spacing-xs);
+        align-items: center;
+        text-align: center;
     }
-    .home-card p {
-        font-size: 18px;
+
+    .card-contact {
+        flex-direction: column;
     }
 }

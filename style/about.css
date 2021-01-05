@@ -1,6 +1,7 @@
 .about {
-    margin-top: 70px;
-    margin-bottom: 30px;
+    margin-top: var(--spacing-xl);
+    margin-right: var(--spacing-lg);
+    margin-left: var(--spacing-lg);
 }
 
 .profile {
@@ -11,12 +12,36 @@
 
 .about-me {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.about-text {
+    margin: var(--spacing-xl);
 }
 
 .about p {
-    padding-left: 25px;
-    padding-right: 25px;
     color: black;
-    font-size: 16px;
+    font-size: var(--standard-md);
+}
+
+@media screen and (max-width: 750px) {
+    .about {
+        margin-top: var(--spacing-xs);
+    }
+    .about p {
+        font-size: var(--standard-sm);
+    }
+
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .about h3 {
+        text-align: center;
+        margin-bottom: var(--spacing-xs);
+    }
 }

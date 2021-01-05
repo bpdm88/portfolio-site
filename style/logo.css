@@ -1,16 +1,17 @@
 .logo-wrapper {
     height: 50px;
     width: 50px;
-    border: 5px solid #696969;
+    border: 5px solid var(--light-grey);
     border-radius: 50%;
     display: flex;
     justify-content: center;
+    margin: var(--spacing-sm);
 }
 
 .logo {
     font-family: cabin;
     font-size: 18px;
-    color: #696969;
+    color: var(--light-grey);
     display: flex;
     align-items: center;
     justify-content: center;
