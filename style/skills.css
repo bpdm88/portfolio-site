@@ -23,4 +23,9 @@
         flex-direction: column;
         height: fit-content;
     }
+
+    .skill-box ul {
+        margin-top: var(--spacing-sm);
+        margin-bottom: var(--spacing-sm);
+    }
 }

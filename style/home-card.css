@@ -1,7 +1,7 @@
 .welcome {
     height: 80vh;
     margin-top: var(--spacing-xl);
-    margin-bottom: var(--spacing-xl);
+    margin-bottom: var(--spacing-xxl);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
