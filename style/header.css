@@ -30,7 +30,7 @@ li img {
     opacity: 70%;
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 960px) {
     header {
         width: 320px;
     }

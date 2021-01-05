@@ -26,6 +26,9 @@
 }
 
 @media screen and (max-width: 750px) {
+    .about {
+        margin-top: var(--spacing-xs);
+    }
     .about p {
         font-size: var(--standard-sm);
     }
