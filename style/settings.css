@@ -1,0 +1,48 @@
+:root {
+    /* colours */
+
+    --green: rgba(104, 202, 173, 0.7);
+    --grey: rgba(73, 71, 71);
+    --light-grey: rgba(105, 105, 105);
+    --white: rgba(249, 249, 249);
+    --black: rgba(0, 0, 0);
+
+    /* font size */
+
+    --heading-alpha-sm: 30px;
+    --heading-alpha-md: 50px;
+    --heading-alpha-lg: 60px;
+
+    --heading-bravo-sm: 20px;
+    --heading-bravo-md: 25px;
+    --heading-bravo-lg: 30px;
+
+    --heading-charlie-sm: 40px;
+    --heading-charlie-md: 40px;
+    --heading-charlie-lg: 40px;
+
+    --heading-delta-sm: 14px;
+    --heading-delta-md: 18px;
+    --heading-delta-lg: 22px;
+
+    --heading-echo-sm: 14px;
+    --heading-echo-md: 16px;
+    --heading-echo-lg: 18px;
+
+    --heading-foxtrot-sm: 10px;
+    --heading-foxtrot-md: 12px;
+    --heading-foxtrot-lg: 14px;
+
+    --standard-sm: 14px;
+    --standard-md: 18px;
+    --standard-lg: 22px;
+
+    /* margin & padding */
+
+    --spacing-xs: 5px;
+    --spacing-sm: 10px;
+    --spacing-md: 15px;
+    --spacing-lg: 20px;
+    --spacing-xl: 30px;
+    --spacing-xxl: 135px;
+}

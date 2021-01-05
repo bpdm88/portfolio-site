@@ -2,14 +2,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;
 }
 
-ul {
+header ul {
     display: flex;
 }
 
-li {
+header li {
     font-family: cabin;
     display: flex;
     align-items: center;
@@ -17,16 +16,31 @@ li {
 }
 
 a {
-    color: #696969;
+    color: var(--light-grey);
     text-decoration: none;
     font-size: 18px;
 }
 
 a:hover {
     transition: all 0.2s ease 0s;
-    color: rgba(104, 202, 173, 0.7);
+    color: var(--green);
 }
 
 li img {
     opacity: 70%;
+}
+
+@media screen and (max-width: 960px) {
+    header {
+        width: 320px;
+    }
+
+    nav {
+        visibility: hidden;
+    }
+
+    nav,
+    a {
+        font-size: 10px;
+    }
 }
