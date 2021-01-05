@@ -4,11 +4,11 @@ header {
     align-items: center;
 }
 
-ul {
+header ul {
     display: flex;
 }
 
-li {
+header li {
     font-family: cabin;
     display: flex;
     align-items: center;

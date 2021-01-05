@@ -1,11 +1,11 @@
 button {
-    margin-top: 25px;
+    margin-top: var(--standard-xl);
     width: 150px;
     height: 50px;
     border-color: var(--white);
     background-color: var(--white);
     border-style: solid;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 button a {

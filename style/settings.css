@@ -25,9 +25,17 @@
     --heading-delta-md: 40px;
     --heading-delta-lg: 40px;
 
+    --heading-echo-sm: 14px;
+    --heading-echo-md: 16px;
+    --heading-echo-lg: 18px;
+
+    --heading-foxtrot-sm: 10px;
+    --heading-foxtrot-md: 12px;
+    --heading-foxtrot-lg: 14px;
+
     --standard-sm: 14px;
-    --standard-md: 16px;
-    --standard-lg: 20px;
+    --standard-md: 18px;
+    --standard-lg: 22px;
 
     /* margin & padding */
 
@@ -36,9 +44,4 @@
     --spacing-md: 15px;
     --spacing-lg: 20px;
     --spacing-xl: 30px;
-
-    /* card size */
-
-    --card-xs: 300px;
-    --card-sm: ;
 }

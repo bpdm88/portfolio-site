@@ -4,11 +4,10 @@
     margin-bottom: var(--spacing-xl);
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .home-card {
     height: 650px;
-    width: auto;
     border-radius: 15px;
     background-color: var(--green);
     margin: var(--spacing-lg);
@@ -19,8 +18,7 @@
 }
 
 .card-content {
-    width: auto;
-    height: 500px;
+    height: 400px;
     padding: var(--spacing-xl);
     display: flex;
     flex-direction: column;
@@ -30,6 +28,15 @@
 .card-contact {
     display: flex;
     align-items: center;
+}
+
+.socials {
+    display: flex;
+    align-items: center;
+}
+
+.socials li {
+    padding: var(--spacing-lg);
 }
 
 @media screen and (max-width: 1600px) {
