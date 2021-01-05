@@ -35,13 +35,13 @@
 
 .heading--delta {
     font-family: cabin;
-    font-size: 22px;
+    font-size: var(--heading-delta-lg);
     color: var(--light-grey);
 }
 
 .heading--echo {
     font-family: cabin-bold;
-    font-size: var(--heading-echo-lg)
+    font-size: var(--heading-echo-lg);
     color: var(--light-grey);
 }
 
