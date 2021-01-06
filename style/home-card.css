@@ -25,6 +25,10 @@
     justify-content: space-evenly;
 }
 
+.home-card p {
+    font-family: cabin-bold;
+}
+
 .card-contact {
     display: flex;
     align-items: center;

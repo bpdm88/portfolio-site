@@ -14,6 +14,11 @@
     src: url(../assets/fonts/static/Comfortaa-Medium.ttf) format("truetype");
 }
 
+@font-face {
+    font-family: nunito;
+    src: url(../assets/fonts/Nunito-Light.ttf) format("truetype");
+}
+
 .heading--alpha {
     font-family: cabin-bold;
     font-size: var(--heading-alpha-lg);
@@ -52,7 +57,7 @@
 }
 
 p {
-    font-family: cabin-bold;
+    font-family: nunito;
     color: var(--white);
     font-size: var(--standard-lg);
 }
