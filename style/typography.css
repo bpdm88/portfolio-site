@@ -20,7 +20,7 @@
 }
 
 .heading--alpha {
-    font-family: cabin-bold;
+    font-family: cabin-bold, sans-serif;
     font-size: var(--heading-alpha-lg);
     color: var(--white);
 }
@@ -28,36 +28,36 @@
 .heading--bravo {
     color: var(--grey);
     font-size: var(--heading-bravo-lg);
-    font-family: cabin-bold;
+    font-family: cabin-bold, sans-serif;
     filter: opacity(75%);
 }
 
 .heading--charlie {
-    font-family: cabin;
+    font-family: cabin, sans-serif;
     font-size: 32px;
     color: var(--light-grey);
 }
 
 .heading--delta {
-    font-family: cabin;
+    font-family: cabin, sans-serif;
     font-size: var(--heading-delta-lg);
     color: var(--light-grey);
 }
 
 .heading--echo {
-    font-family: cabin-bold;
+    font-family: cabin-bold, sans-serif;
     font-size: var(--heading-echo-lg);
     color: var(--light-grey);
 }
 
 .heading--foxtrot {
-    font-family: comfortaa;
+    font-family: comfortaa, sans-serif;
     font-size: var(--heading-foxtrot-lg);
     line-height: 1.8;
 }
 
 p {
-    font-family: nunito;
+    font-family: nunito, sans-serif;
     color: var(--white);
     font-size: var(--standard-lg);
 }
