@@ -21,6 +21,15 @@
     padding: var(--spacing-xl);
 }
 
+.cv {
+    display: block;
+    padding-top: var(--spacing-md);
+    color: var(--green);
+    font-weight: bold;
+    font-size: var(--standard-md);
+    font-family: nunito, sans-serif;
+}
+
 @media screen and (max-width: 960px) {
     .contact {
         margin-right: var(--spacing-sm);
@@ -44,5 +53,9 @@
     .contact h3 {
         text-align: center;
         margin-bottom: var(--spacing-xs);
+    }
+
+    .cv {
+        font-size: var(--standard-sm);
     }
 }
