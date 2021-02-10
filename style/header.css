@@ -1,46 +1,37 @@
-header {
+nav {
+  visibility: hidden;
+}
+
+@media screen and (min-width: 750px) {
+  header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
+  }
 
-header ul {
+  header ul {
     display: flex;
-}
+  }
 
-header li {
-    font-family: cabin;
+  header li {
+    font-family: cabin-bold;
     display: flex;
     align-items: center;
     padding: 20px;
-}
+  }
 
-a {
+  nav {
+    visibility: visible;
+  }
+
+  a {
     color: var(--light-grey);
     text-decoration: none;
     font-size: 18px;
-}
+  }
 
-a:hover {
+  a:hover {
     transition: all 0.2s ease 0s;
     color: var(--green);
-}
-
-li img {
-    opacity: 70%;
-}
-
-@media screen and (max-width: 960px) {
-    header {
-        width: 320px;
-    }
-
-    nav {
-        visibility: hidden;
-    }
-
-    nav,
-    a {
-        font-size: 10px;
-    }
+  }
 }

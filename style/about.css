@@ -1,47 +1,40 @@
 .about {
-    margin-top: var(--spacing-xl);
-    margin-right: var(--spacing-lg);
-    margin-left: var(--spacing-lg);
+  margin-top: var(--spacing-xl);
 }
 
 .profile {
-    width: 150px;
-    height: 150px;
-    border-radius: 75%;
+  width: 150px;
+  height: 150px;
+  border-radius: 75%;
 }
 
 .about-me {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .about-text {
-    margin: var(--spacing-xl);
-}
-
-.about p {
-    color: black;
-    font-size: var(--standard-md);
+  margin: var(--spacing-xl);
 }
 
 @media screen and (max-width: 750px) {
-    .about {
-        margin-top: var(--spacing-xs);
-    }
-    .about p {
-        font-size: var(--standard-sm);
-    }
+  .about {
+    margin-top: var(--spacing-xs);
+  }
+  .about p {
+    font-size: var(--standard-sm);
+  }
 
-    .about-me {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        text-align: center;
-    }
+  .about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
 
-    .about h3 {
-        text-align: center;
-        margin-bottom: var(--spacing-xs);
-    }
+  .about h3 {
+    text-align: center;
+    margin-bottom: var(--spacing-xs);
+  }
 }

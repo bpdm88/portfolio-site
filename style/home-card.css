@@ -1,87 +1,74 @@
 .welcome {
-    min-height: calc(100vh - (70px + var(--spacing-xl)));
-    margin-top: var(--spacing-xl);
-    margin-bottom: var(--spacing-xxl);
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+  min-height: 100vh;
+  margin-top: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
 }
 .home-card {
-    height: 650px;
-    border-radius: 15px;
-    background-color: var(--green);
-    margin: var(--spacing-lg);
-    padding: var(--spacing-xl);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+  width: 300px;
+  height: 500px;
+  border-radius: 15px;
+  background-color: var(--green);
+  margin: var(--spacing-sm);
+  padding: var(--spacing-sm);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .card-content {
-    height: 400px;
-    padding: var(--spacing-xl);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-
-.home-card p {
-    font-family: cabin-bold;
+  padding: var(--spacing-xs);
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
 }
 
 .card-contact {
-    display: flex;
-    align-items: center;
+  flex-direction: column;
 }
 
 .socials {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .socials li {
-    padding: var(--spacing-lg);
+  padding: var(--spacing-lg);
 }
 
-@media screen and (max-width: 1600px) {
-    .home-card {
-        height: 525px;
-    }
+@media screen and (min-width: 750px) {
+  .welcome {
+    min-height: calc(100vh - (100px + var(--spacing-xl)));
+    margin-top: var(--spacing-xl);
+  }
+  .home-card {
+    min-width: 100%;
+    height: 500px;
+    margin: var(--spacing-lg);
+    padding: var(--spacing-xl);
+  }
+
+  .card-content {
+    padding: var(--spacing-xl);
+    align-items: flex-start;
+    text-align: start;
+  }
+
+  .card-contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
 }
 
-@media screen and (max-width: 1025px) {
-    .welcome {
-        min-height: 0;
-    }
-    .home-card {
-        width: 800px;
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .welcome {
-        height: 100vh;
-        margin-top: var(--spacing-sm);
-        margin-bottom: var(--spacing-sm);
-        display: flex;
-        flex-direction: column;
-        justify-content: end;
-        align-items: center;
-    }
-    .home-card {
-        width: 300px;
-        height: 500px;
-        margin: var(--spacing-sm);
-        padding: var(--spacing-sm);
-    }
-
-    .card-content {
-        padding: var(--spacing-xs);
-        align-items: center;
-        text-align: center;
-    }
-
-    .card-contact {
-        flex-direction: column;
-    }
+@media screen and (min-width: 1600px) {
+  .home-card {
+    height: 600px;
+  }
 }

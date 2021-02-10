@@ -1,18 +1,19 @@
 .wrapper {
-    display: grid;
-    grid-template-columns: 1fr;
-    max-width: 1250px;
-    margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  max-width: 340px;
+  margin: auto;
+  padding: var(--spacing-sm);
 }
 
-@media screen and (max-width: 1600px) {
-    .wrapper {
-        max-width: 1000px;
-    }
+@media screen and (min-width: 750px) {
+  .wrapper {
+    max-width: 1000px;
+  }
 }
 
-@media screen and (max-width: 750px) {
-    .wrapper {
-        max-width: 340px;
-    }
+@media screen and (min-width: 1600px) {
+  .wrapper {
+    max-width: 1200px;
+  }
 }

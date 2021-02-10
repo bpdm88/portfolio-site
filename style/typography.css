@@ -1,103 +1,34 @@
 @font-face {
-    font-family: cabin;
-    font-weight: italic;
-    src: url(../assets/fonts/static/Cabin-BoldItalic.ttf) format("truetype");
+  font-family: cabin-bold;
+  src: url(../assets/fonts/static/Cabin-Bold.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: cabin-bold;
-    src: url(../assets/fonts/static/Cabin-Bold.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: comfortaa;
-    src: url(../assets/fonts/static/Comfortaa-Medium.ttf) format("truetype");
-}
-
-@font-face {
-    font-family: nunito;
-    src: url(../assets/fonts/Nunito-Light.ttf) format("truetype");
+  font-family: nunito;
+  src: url(../assets/fonts/Nunito-Light.ttf) format('truetype');
 }
 
 .heading--alpha {
-    font-family: cabin-bold, sans-serif;
-    font-size: var(--heading-alpha-lg);
-    color: var(--white);
+  font-family: cabin-bold, sans-serif;
+  font-size: var(--heading-alpha);
+  color: var(--white);
 }
 
 .heading--bravo {
-    color: var(--grey);
-    font-size: var(--heading-bravo-lg);
-    font-family: cabin-bold, sans-serif;
-    filter: opacity(75%);
+  font-family: cabin-bold, sans-serif;
+  font-size: var(--heading-bravo);
+  color: var(--white);
 }
 
 .heading--charlie {
-    font-family: cabin, sans-serif;
-    font-size: 32px;
-    color: var(--light-grey);
+  font-family: cabin-bold, sans-serif;
+  font-size: var(--heading-charlie);
+  color: var(--grey);
 }
 
-.heading--delta {
-    font-family: cabin, sans-serif;
-    font-size: var(--heading-delta-lg);
-    color: var(--light-grey);
-}
-
-.heading--echo {
-    font-family: cabin-bold, sans-serif;
-    font-size: var(--heading-echo-lg);
-    color: var(--light-grey);
-}
-
-.heading--foxtrot {
-    font-family: comfortaa, sans-serif;
-    font-size: var(--heading-foxtrot-lg);
-    line-height: 1.8;
-}
-
-p {
-    font-family: nunito, sans-serif;
-    color: var(--white);
-    font-size: var(--standard-lg);
-}
-
-.socials img {
-    filter: opacity(75%);
-}
-
-@media screen and (max-width: 960px) {
-    .heading--alpha {
-        font-size: var(--heading-alpha-md);
-    }
-    .heading--bravo {
-        font-size: var(--heading-bravo-md);
-    }
-    .heading--echo {
-        font-size: var(--heading-echo-md);
-    }
-    .heading--foxtrot {
-        font-size: var(--heading-foxtrot-md);
-    }
-    p {
-        font-size: var(--standard-md);
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .heading--alpha {
-        font-size: var(--heading-alpha-sm);
-    }
-    .heading--bravo {
-        font-size: var(--heading-bravo-sm);
-    }
-    .heading--echo {
-        font-size: var(--heading-echo-sm);
-    }
-    .heading--foxtrot {
-        font-size: var(--heading-foxtrot-sm);
-    }
-    p {
-        font-size: var(--standard-sm);
-    }
+p,
+li {
+  font-family: nunito, sans-serif;
+  color: var(--black);
+  font-size: var(--standard);
 }
