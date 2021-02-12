@@ -8,6 +8,11 @@
   src: url(../assets/fonts/Nunito-Light.ttf) format('truetype');
 }
 
+@font-face {
+  font-family: comfortaa;
+  src: url(../assets/fonts/static/Comfortaa-Medium.ttf) format('truetype');
+}
+
 .heading--alpha {
   font-family: cabin-bold, sans-serif;
   font-size: var(--heading-alpha);
@@ -26,8 +31,14 @@
   color: var(--grey);
 }
 
-p,
-li {
+.heading--delta {
+  font-family: comfortaa;
+  font-size: var(--heading-delta);
+  color: var(--black);
+  line-height: 2.5;
+}
+
+p {
   font-family: nunito, sans-serif;
   color: var(--black);
   font-size: var(--standard);

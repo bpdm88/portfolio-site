@@ -1,40 +1,54 @@
 .about {
-  margin-top: var(--spacing-xl);
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.about-me {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: var(--spacing-xl);
+}
+
+.about h3 {
+  text-align: center;
+  margin-bottom: var(--spacing-xs);
 }
 
 .profile {
   width: 150px;
   height: 150px;
   border-radius: 75%;
-}
-
-.about-me {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-top: var(--spacing-md);
+  margin-bottom: var(--spacing-md);
 }
 
 .about-text {
-  margin: var(--spacing-xl);
+  margin: var(--spacing-md);
 }
 
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 750px) {
   .about {
-    margin-top: var(--spacing-xs);
-  }
-  .about p {
-    font-size: var(--standard-sm);
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
   }
 
   .about-me {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: start;
+  }
+
+  .about-text {
+    margin: var(--spacing-xl);
   }
 
   .about h3 {
-    text-align: center;
-    margin-bottom: var(--spacing-xs);
+    text-align: start;
+    margin-bottom: var(--spacing-xl);
+    margin-left: var(--spacing-lg);
   }
 }

@@ -2,7 +2,7 @@
   /* colours */
   --green: rgba(104, 202, 173, 0.7);
   --grey: rgb(94, 94, 94);
-  --light-grey: rgba(104, 104, 104);
+  --light-grey: rgba(164, 163, 163);
   --white: rgba(249, 249, 249);
   --black: rgba(0, 0, 0);
 
@@ -10,7 +10,8 @@
   --heading-alpha: 30px;
   --heading-bravo: 14px;
   --heading-charlie: 20px;
-  --standard: 12px;
+  --heading-delta: 12px;
+  --standard: 14px;
 
   /* margin & padding */
 
@@ -27,7 +28,8 @@
     --heading-alpha: 50px;
     --heading-bravo: 16px;
     --heading-charlie: 25px;
-    --standard: 14px;
+    --heading-delta: 14px;
+    --standard: 16px;
   }
 }
 
@@ -36,6 +38,7 @@
     --heading-alpha: 60px;
     --heading-bravo: 22px;
     --heading-charlie: 30px;
-    --standard: 16px;
+    --heading-delta: 14px;
+    --standard: 18px;
   }
 }
