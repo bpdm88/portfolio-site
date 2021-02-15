@@ -1,6 +1,5 @@
 .about {
   margin-top: var(--spacing-xs);
-  margin-bottom: var(--spacing-xs);
 }
 
 .about-me {
@@ -13,7 +12,6 @@
 
 .about h3 {
   text-align: center;
-  margin-bottom: var(--spacing-xs);
 }
 
 .profile {
@@ -48,7 +46,6 @@
 
   .about h3 {
     text-align: start;
-    margin-bottom: var(--spacing-xl);
-    margin-left: var(--spacing-lg);
+    margin-left: var(--spacing-sm);
   }
 }

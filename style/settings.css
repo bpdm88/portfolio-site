@@ -7,7 +7,7 @@
   --black: rgba(0, 0, 0);
 
   /* typography */
-  --heading-alpha: 30px;
+  --heading-alpha: 40px;
   --heading-bravo: 14px;
   --heading-charlie: 20px;
   --heading-delta: 12px;
@@ -37,7 +37,7 @@
   :root {
     --heading-alpha: 60px;
     --heading-bravo: 22px;
-    --heading-charlie: 30px;
+    --heading-charlie: 35px;
     --heading-delta: 14px;
     --standard: 18px;
   }
