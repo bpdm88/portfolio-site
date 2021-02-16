@@ -25,7 +25,7 @@ nav {
   }
 
   a {
-    color: var(--light-grey);
+    color: var(--grey);
     text-decoration: none;
     font-size: 18px;
   }

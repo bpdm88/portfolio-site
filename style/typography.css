@@ -4,20 +4,20 @@
 }
 
 @font-face {
-  font-family: nunito;
-  src: url(../assets/fonts/Nunito-Light.ttf) format('truetype');
+  font-family: cabin;
+  src: url(../assets/fonts/static/Cabin-Regular.ttf) format('truetype');
 }
 
 @font-face {
-  font-family: comfortaa;
-  src: url(../assets/fonts/static/Comfortaa-Medium.ttf) format('truetype');
+  font-family: cabin-alt;
+  src: url(../assets/fonts/static/Cabin-Italic.ttf) format('truetype');
 }
 
 .heading--alpha {
   font-family: cabin-bold, sans-serif;
   font-size: var(--heading-alpha);
-  text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px, rgba(0, 0, 0, 0.3) 0 30px 25px;
-  color: #e1e1e1;
+  text-shadow: #bbb 0 0 1px, #fff 0 -1px 2px, #fff 0 -3px 2px, rgba(0, 0, 0, 0.1) 0 30px 25px;
+  color: #e7e7e7;
 }
 
 .heading--bravo {
@@ -28,29 +28,21 @@
 }
 
 .heading--charlie {
-  font-family: cabin-bold, sans-serif;
+  font-family: cabin-alt, sans-serif;
   font-size: var(--heading-charlie);
-  text-shadow: #7c7c7c 0 0 1px, #646363 0 -1px 2px, #585858 0 -3px 2px,
-    rgba(0, 0, 0, 0.2) 0 30px 25px;
-  color: #cecbcb;
+  color: var(--grey);
+  margin-bottom: var(--spacing-xl);
 }
 
 .heading--delta {
-  font-family: comfortaa;
+  font-family: cabin;
   font-size: var(--heading-delta);
-  color: var(--black);
+  color: var(--grey);
   line-height: 2.5;
 }
 
 p {
-  font-family: nunito, sans-serif;
-  color: var(--black);
+  font-family: cabin, sans-serif;
+  color: var(--grey);
   font-size: var(--standard);
-}
-
-.underline {
-  border-bottom: 5px solid var(--green);
-  width: 115px;
-  box-shadow: 1px -1px 1px rgba(81, 158, 135), 2px -2px 2px rgb(86, 170, 145),
-    3px -3px 3px rgb(80, 161, 137);
 }

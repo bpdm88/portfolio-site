@@ -31,6 +31,7 @@
 
 .card-contact {
   flex-direction: column;
+  align-items: center;
 }
 
 .socials {
@@ -64,6 +65,12 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+  }
+
+  .socials li {
+    padding-top: var(--spacing-md);
+    padding-right: var(--spacing-xl);
+    padding-left: 0;
   }
 }
 
