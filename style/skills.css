@@ -1,18 +1,27 @@
 .skills-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .tools img {
   margin-bottom: var(--spacing-lg);
+  margin-left: var(--spacing-xl);
 }
 
 .tech img {
   margin-bottom: var(--spacing-lg);
+  margin-left: var(--spacing-xl);
 }
 
 .people img {
   margin-bottom: var(--spacing-xs);
+  margin-left: var(--spacing-xl);
+}
+
+.skills-box ul {
+  margin-bottom: var(--spacing-lg);
 }
 
 @media screen and (min-width: 750px) {
@@ -34,7 +43,15 @@
   }
 
   .tech img {
-    width: auto;
+    margin-left: 0px;
+  }
+
+  .people img {
+    margin-left: 0px;
+  }
+
+  .tools img {
+    margin-left: 0px;
   }
 
   .cogs {

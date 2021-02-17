@@ -23,7 +23,7 @@
 }
 
 .about-text {
-  margin: var(--spacing-md);
+  padding: var(--spacing-lg);
 }
 
 @media screen and (min-width: 750px) {

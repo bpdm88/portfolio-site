@@ -1,27 +1,32 @@
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+}
+
+header li {
+  font-family: cabin-bold;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
 nav {
   visibility: hidden;
 }
 
 @media screen and (min-width: 750px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-
-  header ul {
-    display: flex;
-  }
-
-  header li {
-    font-family: cabin-bold;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-  }
-
   nav {
     visibility: visible;
+  }
+
+  header {
+    justify-content: space-between;
   }
 
   a {

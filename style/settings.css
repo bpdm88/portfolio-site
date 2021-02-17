@@ -8,9 +8,9 @@
 
   /* typography */
   --heading-alpha: 40px;
-  --heading-bravo: 14px;
-  --heading-charlie: 20px;
-  --heading-delta: 12px;
+  --heading-bravo: 16px;
+  --heading-charlie: 35px;
+  --heading-delta: 16px;
   --standard: 14px;
 
   /* margin & padding */
@@ -27,7 +27,7 @@
   :root {
     --heading-alpha: 50px;
     --heading-bravo: 16px;
-    --heading-charlie: 25px;
+    --heading-charlie: 35px;
     --heading-delta: 14px;
     --standard: 16px;
   }
