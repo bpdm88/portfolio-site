@@ -2,6 +2,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: var(--spacing-lg);
 }
 
 header ul {
@@ -13,7 +14,11 @@ header li {
   font-family: cabin-bold;
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: var(--spacing-lg);
+}
+
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -31,7 +36,6 @@ nav {
 
   a {
     color: var(--grey);
-    text-decoration: none;
     font-size: 18px;
   }
 

@@ -5,19 +5,35 @@
   text-align: center;
 }
 
+.tech {
+  margin-top: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .tools img {
   margin-bottom: var(--spacing-lg);
-  margin-left: var(--spacing-xl);
 }
 
 .tech img {
   margin-bottom: var(--spacing-lg);
-  margin-left: var(--spacing-xl);
 }
 
 .people img {
   margin-bottom: var(--spacing-xs);
-  margin-left: var(--spacing-xl);
 }
 
 .skills-box ul {
