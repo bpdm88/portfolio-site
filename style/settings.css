@@ -11,6 +11,7 @@
   --heading-bravo: 16px;
   --heading-charlie: 35px;
   --heading-delta: 16px;
+  --heading-echo: 40px;
   --standard: 14px;
 
   /* margin & padding */
@@ -29,16 +30,18 @@
     --heading-bravo: 16px;
     --heading-charlie: 35px;
     --heading-delta: 14px;
+    --heading-echo: 50px;
     --standard: 16px;
   }
 }
 
 @media screen and (min-width: 750px) {
   :root {
-    --heading-alpha: 60px;
+    --heading-alpha: 75px;
     --heading-bravo: 24px;
     --heading-charlie: 35px;
     --heading-delta: 16px;
+    --heading-echo: 60px;
     --standard: 18px;
   }
 }
