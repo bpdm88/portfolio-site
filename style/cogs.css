@@ -1,0 +1,113 @@
+.cogs {
+  position: relative;
+  width: 300px;
+  height: 275px;
+  margin-bottom: var(--spacing-lg);
+}
+
+.cog-one {
+  position: absolute;
+  bottom: 14%;
+  left: 0%;
+}
+
+.cog-two {
+  position: absolute;
+  bottom: 60%;
+  left: 45%;
+}
+
+.cog-three {
+  position: absolute;
+  bottom: 25%;
+  left: 60%;
+}
+
+.cog-four {
+  visibility: hidden;
+}
+
+.cog-five {
+  position: absolute;
+  bottom: 75%;
+  left: 15%;
+}
+
+.cog-six {
+  position: absolute;
+  bottom: 65%;
+  left: 80%;
+}
+
+.rotate {
+  animation: rotation 25s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.reverse {
+  animation: rotation 28s infinite linear;
+}
+
+@keyframes reverse {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 1250px) {
+  .cogs {
+    position: relative;
+    width: 500px;
+    height: 325px;
+  }
+
+  .cog-one {
+    position: absolute;
+    visibility: visible;
+    bottom: 10%;
+    left: 30%;
+  }
+
+  .cog-two {
+    position: absolute;
+    bottom: 23%;
+    left: 10%;
+  }
+
+  .cog-three {
+    position: absolute;
+    bottom: 46%;
+    left: 58%;
+  }
+
+  .cog-four {
+    position: absolute;
+    visibility: visible;
+    bottom: 53%;
+    left: 16%;
+  }
+
+  .cog-five {
+    position: absolute;
+    bottom: 63%;
+    left: 43%;
+  }
+
+  .cog-six {
+    position: absolute;
+    visibility: visible;
+    bottom: 87%;
+    left: 37%;
+  }
+}

@@ -1,61 +1,20 @@
 .contact {
-    margin-top: var(--spacing-xl);
-    margin-right: var(--spacing-lg);
-    margin-left: var(--spacing-lg);
-}
-
-.contact-card {
-    height: fit-content;
-    background-color: var(--white);
-    border-radius: 10px;
-    margin-top: var(--spacing-xl);
-    padding: var(--spacing-xl);
+  text-align: center;
 }
 
 .contact p {
-    color: var(--black);
-    font-size: var(--standard-md);
+  padding-left: var(--spacing-xl);
+  padding-right: var(--spacing-xl);
 }
 
-.contact-text {
-    padding: var(--spacing-xl);
+.contact a {
+  margin-top: var(--spacing-lg);
+  color: var(--green);
+  display: block;
 }
 
-.cv {
-    display: block;
-    padding-top: var(--spacing-md);
-    color: var(--green);
-    font-weight: bold;
-    font-size: var(--standard-md);
-    font-family: nunito, sans-serif;
-}
-
-@media screen and (max-width: 960px) {
-    .contact {
-        margin-right: var(--spacing-sm);
-        margin-left: var(--spacing-sm);
-    }
-    .contact-card {
-        padding: var(--spacing-md);
-    }
-
-    .contact-text {
-        padding: var(--spacing-md);
-    }
-}
-
-@media screen and (max-width: 750px) {
-    .contact p {
-        text-align: center;
-        font-size: var(--standard-sm);
-    }
-
-    .contact h3 {
-        text-align: center;
-        margin-bottom: var(--spacing-xs);
-    }
-
-    .cv {
-        font-size: var(--standard-sm);
-    }
+@media screen and (min-width: 750px) {
+  .contact {
+    text-align: left;
+  }
 }

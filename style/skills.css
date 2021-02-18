@@ -1,31 +1,94 @@
-.skills {
-    background-color: var(--white);
-    height: 300px;
-    border-radius: 15px;
-    margin-top: var(--spacing-xl);
-    margin-bottom: var(--spacing-xl);
-    padding: var(--spacing-xl);
-    display: flex;
-    justify-content: space-between;
+.skills-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.skill-box {
+.tech {
+  margin-top: var(--spacing-lg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.people {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tools img {
+  margin-bottom: var(--spacing-lg);
+}
+
+.tech img {
+  margin-bottom: var(--spacing-lg);
+}
+
+.people img {
+  margin-bottom: var(--spacing-xs);
+}
+
+.skills-box ul {
+  margin-bottom: var(--spacing-lg);
+}
+
+@media screen and (min-width: 750px) {
+  .skills-box {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    justify-items: center;
+    padding-top: var(--spacing-xl);
+    padding-bottom: var(--spacing-xl);
+  }
+
+  .tech {
+    grid-column-start: span 2;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     align-items: center;
     text-align: center;
-}
+    height: 325px;
+  }
 
-@media screen and (max-width: 750px) {
-    .skills {
-        display: flex;
-        flex-direction: column;
-        height: min-content;
-    }
+  .tech img {
+    margin-left: 0px;
+  }
 
-    .skill-box ul {
-        margin-top: var(--spacing-sm);
-        margin-bottom: var(--spacing-sm);
-    }
+  .people img {
+    margin-left: 0px;
+  }
+
+  .tools img {
+    margin-left: 0px;
+  }
+
+  .cogs {
+    grid-column: span 4;
+  }
+
+  .tools {
+    grid-column-start: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 325px;
+  }
+
+  .people {
+    grid-column-start: span 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 325px;
+  }
 }
